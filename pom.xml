@@ -253,6 +253,7 @@
         <module>leveldbjni-sunos64-sparcv9</module>
         <module>leveldbjni-linux64-ppc64le</module>
         <module>leveldbjni-linux64-aarch64</module>
+        <module>leveldbjni-linux64-s390x</module>
         <module>leveldbjni-all</module>
       </modules>
     </profile>    
@@ -310,7 +311,14 @@
         <module>leveldbjni-win64</module>
       </modules>
     </profile>
-
+    
+    <profile>
+      <id>linux64-s390x</id>
+      <modules>
+        <module>leveldbjni-linux64-s390x</module>
+      </modules>
+    </profile>
+    
     <profile>
       <id>sunos64-amd64</id>
       <modules>
