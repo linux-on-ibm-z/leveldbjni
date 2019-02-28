@@ -126,7 +126,8 @@
               META-INF/native/osx/libleveldbjni.jnilib;osname=macosx;processor=x86,
               META-INF/native/osx/libleveldbjni.jnilib;osname=macosx;processor=x86-64,
               META-INF/native/linux32/libleveldbjni.so;osname=Linux;processor=x86,
-              META-INF/native/linux64/libleveldbjni.so;osname=Linux;processor=x86-64
+              META-INF/native/linux64/libleveldbjni.so;osname=Linux;processor=x86-64,
+              META-INF/native/linux64/s390x/libleveldbjni.so;osname=Linux;processor=s390x
             </Bundle-NativeCode>
          </instructions>
         </configuration>
