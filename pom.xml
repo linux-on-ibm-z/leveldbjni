@@ -249,6 +249,7 @@
         <module>leveldbjni-win32</module>
         <module>leveldbjni-win64</module>
         <module>leveldbjni-all</module>
+        <module>leveldbjni-linux64-s390x</module>
       </modules>
     </profile>    
 
@@ -296,6 +297,13 @@
       </properties>
       <modules>
         <module>leveldbjni-win64</module>
+      </modules>
+    </profile>
+    
+    <profile>
+     <id>linux64-s390x</id>
+     <modules>
+        <module>leveldbjni-linux64-s390x</module>
       </modules>
     </profile>
 
